@@ -4,29 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd008893-f9f1-471a-ac32-5b7bedcc19db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/django_john.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_john/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_john/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_john/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_john/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_john/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/migrations/0002_tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/views.py" afterDir="false" />
+    <list default="true" id="bd008893-f9f1-471a-ac32-5b7bedcc19db" name="Changes" comment="haciendo todo">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_john/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_john/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +42,7 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -79,12 +64,13 @@
         <env name="DJANGO_SETTINGS_MODULE" value="django_john.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (django_john)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
+      <option name="port" value="3030" />
       <option name="host" value="localhost" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -110,8 +96,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703436837698</updated>
-      <workItem from="1703436850023" duration="560000" />
+      <workItem from="1703436850023" duration="4310000" />
     </task>
+    <task id="LOCAL-00001" summary="haciendo todo">
+      <option name="closed" value="true" />
+      <created>1703437440821</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703437440821</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="haciendo todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="haciendo todo" />
   </component>
 </project>
