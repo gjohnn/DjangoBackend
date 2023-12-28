@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects - projects</title>
+</head>
+<body>
+{% extends 'nav/nav.html' %}
+{% block content %}
+    <section>
+        <h3>Projectos:</h3>
+        {% for project in all_projects %}
+            <div>
+                <h3>{{ project.name }}</h3>
+                <div>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </div>
+                <h4>Tareas:</h4>
+            </div>
+        {% endfor %}
+    </section>
+{% endblock %}
+
+</body>
+</html>

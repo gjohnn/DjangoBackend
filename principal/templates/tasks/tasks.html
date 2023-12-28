@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project - Tasks</title>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+{% extends 'nav/nav.html' %}
+{% block content %}
+    <h1>Tasks</h1>
+
+    <section>
+
+        {% for x in tasks %}
+            {# CADA TAREA CON SU BOX #}
+            <div class="task_box">
+                <p> {% if x.done == True %} 💯 {% else %} ⏰ {% endif %} Task: {{ x.title }}</p>
+                <p>Estado:
+                    {% if  x.done == False %}
+                        ⏰Pendiente
+                    {% else %}
+                        💯 Realizada
+                    {% endif %}
+                </p>
+                <p>Description: {{ x.description }}</p>
+                <p>Project: {{ x.project.name }} | ID: {{ x.project.id }}</p>
+                <div>
+                    {# BOTONES DE BORRAR Y HECHO #}
+                    <button>Delete</button>
+                    <button>✅ Done</button>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+{% endblock %}
+
+</body>
+</html>
