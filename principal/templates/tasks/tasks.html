@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Project - Tasks</title>
-    <link rel="stylesheet" type="text/css" href="">
-</head>
-<body>
-{% extends 'nav/nav.html' %}
+{% extends 'layouts/nav.html' %}
 {% block content %}
     <h1>Tasks</h1>
-
-    <section>
+    <a href="{% url "createtask" %}">Create new task</a>
+    <section class="tasks_container">
 
         {% for x in tasks %}
             {# CADA TAREA CON SU BOX #}
@@ -25,7 +17,7 @@
                 </p>
                 <p>Description: {{ x.description }}</p>
                 <p>Project: {{ x.project.name }} | ID: {{ x.project.id }}</p>
-                <div>
+                <div class="buttons_task">
                     {# BOTONES DE BORRAR Y HECHO #}
                     <button>Delete</button>
                     <button>✅ Done</button>
@@ -34,6 +26,3 @@
         {% endfor %}
     </section>
 {% endblock %}
-
-</body>
-</html>

@@ -1,0 +1,11 @@
+
+{% extends '../layouts/nav.html' %}
+{% block content %}
+    <h3>Projecto: {{ found_project.name }}</h3>
+    {% for x in tasks %}
+        <div>
+            <p>{{ x.title }}</p>
+        </div>
+        <p>{{ x.description }}</p>
+    {% endfor %}
+{% endblock %}

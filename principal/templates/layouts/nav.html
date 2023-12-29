@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django - Juan</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/styles/base.css' %}">
+</head>
+<body>
+
+<nav>
+    <div class="routes_a">
+        <a href="{% url "index" %}">Home</a>
+        <a href="{% url "projects" %}">Projects</a>
+        <a href="{% url "tasks" %}">Tasks</a>
+    </div>
+</nav>
+{% block content %}
+    {% endblock %}
+</body>
+</html>
+
+

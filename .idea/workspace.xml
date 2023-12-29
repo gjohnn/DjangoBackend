@@ -4,21 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd008893-f9f1-471a-ac32-5b7bedcc19db" name="Changes" comment="haciendo todo">
-      <change afterPath="$PROJECT_DIR$/principal/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/templates/nav/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/templates/projects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/templates/tasks/tasks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal/templates/tasks/tasks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django_john.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_john.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bd008893-f9f1-471a-ac32-5b7bedcc19db" name="Changes" comment="Tasks y Projects con sus paginas">
+      <change afterPath="$PROJECT_DIR$/principal/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/principal/migrations/0004_tasks_notes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/principal/static/images/OIP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/principal/static/styles/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/principal/templates/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/principal/templates/projects/createProjects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/principal/templates/projects/project_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/principal/templates/tasks/createTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_john/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_john/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/principal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/nav/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/layouts/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/projects/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/tasks/tasks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/principal/templates/tasks/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/principal/templates/tasks/tasks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/principal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/principal/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
       </list>
@@ -64,7 +69,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "P:/python/django",
+    "last_opened_file_path": "P:/python/django/principal/templates/projects",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -76,8 +81,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\python\django\principal\templates\projects" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\python\django\principal\templates\tasks" />
+      <recent name="P:\python\django\principal\static\styles" />
+      <recent name="P:\python\django\principal\static\images" />
+      <recent name="P:\python\django\principal\static" />
+      <recent name="P:\python\django\principal\templates\projects" />
+      <recent name="P:\python\django\principal\templates\layouts" />
     </key>
   </component>
   <component name="RunManager">
@@ -128,7 +140,7 @@
       <workItem from="1703532464188" duration="1827000" />
       <workItem from="1703600967238" duration="213000" />
       <workItem from="1703612060432" duration="112000" />
-      <workItem from="1703790644654" duration="4653000" />
+      <workItem from="1703790644654" duration="18073000" />
     </task>
     <task id="LOCAL-00001" summary="haciendo todo">
       <option name="closed" value="true" />
@@ -146,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703441803679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tasks y Projects con sus paginas">
+      <option name="closed" value="true" />
+      <created>1703795617937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703795617937</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +187,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="haciendo todo" />
     <MESSAGE value="checkeando rutas con db" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkeando rutas con db" />
+    <MESSAGE value="Tasks y Projects con sus paginas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks y Projects con sus paginas" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django_john/settings.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

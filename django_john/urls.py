@@ -20,9 +20,12 @@ from principal import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index),
-    path("home/<str:user>", views.home),
-    path("hello/<int:id>", views.about),
-    path("projects/", views.projects),
-    path("tasks/", views.tasks)
+    path('', views.index, name="index"),
+    path("about/", views.about, name="about"),
+    path("projects/<int:id>", views.projectdetail, name="projectdetail"),
+    path("projects/", views.projects, name="projects"),
+    path("projects/createproject", views.createproject, name="createproject"),
+    path("tasks/", views.tasks, name="tasks"),
+    path("tasks/createtask", views.createtask, name="createtask"),
+
 ]

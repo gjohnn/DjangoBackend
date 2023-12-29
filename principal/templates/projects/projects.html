@@ -1,0 +1,17 @@
+{% extends '../layouts/nav.html' %}
+{% block content %}
+    <h2>Projectos:</h2>
+    <a href="{% url "createproject" %}">Create new project</a>
+    <hr>
+    <section>
+        {% for project in all_projects %}
+            <article>
+                <h3><a href="{% url 'projectdetail' project.id %}">{{ project.name }}</a></h3>
+                <div>
+                    <button>Update</button>
+                    <button>Delete</button>
+                </div>
+            </article>
+        {% endfor %}
+    </section>
+{% endblock %}
